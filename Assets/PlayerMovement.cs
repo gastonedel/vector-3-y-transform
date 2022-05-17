@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
-    public Vector3 movement;
+    public Vector3 movementSpeed;
     public GameObject myobject;
 
 	// Use this for initialization
@@ -14,6 +14,12 @@ public class PlayerMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position += movement;
+        //transform.position += movementSpeed;
+        if(transform.position.x<10)
+        {
+            transform.position += movementSpeed;
+        }
+
+
     }
 }
