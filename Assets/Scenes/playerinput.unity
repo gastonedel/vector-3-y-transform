@@ -206,11 +206,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1409584020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee799f3ab0500ed4ba91e9d9ecabea6c, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e70b11d2f913d243a8891dc43c20bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: {x: 1, y: 0, z: 0}
-  myobject: {fileID: 0}
+  playerSpeed: {x: 0.1, y: 0.1, z: 0}
+  movementSpeed: 0.1
 --- !u!65 &1409584022
 BoxCollider:
   m_ObjectHideFlags: 0
